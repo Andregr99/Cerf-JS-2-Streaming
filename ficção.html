@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Fav Films </title>
+    <title>My Fav comedy </title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -13,7 +13,7 @@
     <div class="container">
         <div class="navigation">
             <div class="nav-left">
-                <a href="index.html"><img  class="logo" src="assets/images/logo.svg" alt="My Fav Films logo" width="87" height="64"></a> 
+               <a href="index.html"><img  class="logo" src="assets/images/logo.svg" alt="My Fav Films logo" width="87" height="64"></a> 
                 <ul class="navigation-items">
                     <li><a href="index.html"id="#Novidades">Novidades</a> </li>                   
                     <li><a href="terror.html" id="#terror">Terror</a>
@@ -38,16 +38,23 @@
         </div>
         <div class="main-content">
             <div class="main-info">
-                <h1 class="title">Procure por seu filme favorito</h1>
-                <h3 class="subtitle">Digite o nome do seus filme e veja oque temos sobre ele!</h3>
+                <h1 class="title">Procure por ficção </h1>
+               
+               
+                <ul class="comedia-items">
+                    <li id="#Familia">Ficção Científica  </li>
+                    <li id="#Ficção">Fantasia </li>
+                    <li id="#Romântica">Distopia </li>
+                    
+                </ul>
             </div>
             <div class="main-search">
                 <div class="search-bar">
                     <div class="search-select">
                         <select name="search-select" id="search-select">
-                        <option value="movie">Filmes</option>
-                        <option value="series">Séries</option>
-                        <option value="ipisode">Episódios</option>
+                        <option class="option" value="movie">Filmes</option>
+                        <option class="option" value="series">Séries</option>
+                        <option class="option" value="ipisode">Episódios</option>
                     </select>
                     </div>
                     <input type="text" placeholder="Busque aqui por um filme" class="search-input"> 
@@ -60,6 +67,7 @@
                 
             </div>
         </div>
+        
     </div>
 <script src="src/main.js">main.js</script>
 </body>
